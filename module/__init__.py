@@ -27,6 +27,6 @@
 
 __version__ = "1.3.3"
 from .GenotypeCalls import code2genotype, NC, AA, AB, BB, GenotypeCalls, NormalizationTransform, ScannerData
-from .BeadPoolManifest import RefStrand, SourceStrand, BeadPoolManifest
+from .BeadPoolManifest import RefStrand, SourceStrand, IlmnStrand, BeadPoolManifest
 from .LocusAggregate import LocusAggregate
 from .ClusterFile import ClusterFile, ClusterRecord, ClusterScore, ClusterStats
